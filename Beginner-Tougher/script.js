@@ -45,10 +45,12 @@
 // 7. Ask user’s age and check if eligible to vote
 // If age >= 18 → “Eligible”, else → “Not eligible”
 
-// let age = prompt("Age kya hai....!")
+let age = +prompt("Age kya hai....!");
+if (age >= 18) console.log("Eligible For Vote.✌️");
+else console.log("Your Not Elegible for Vote🥲")
 
 // aa = typeof (age);
-// if (age === null) { 
+// if (age === null) {
 //     console.log("Please write somthing....!");
 
 // }
@@ -118,7 +120,7 @@
 // let word = prompt("Enter any words:-")
 // while (word !== "stop") {
 //     if(word ==="yes") counter++
-//     word = prompt("Enter any words:-");   
+//     word = prompt("Enter any words:-");
 // }
 
 // console.log(`Yes count is ${counter}`);
@@ -137,7 +139,7 @@
 // for(let x=1;x<=30;x++){
 //   if(x%2!==0){
 //     sum=sum+x;
-//   }  
+//   }
 // }
 
 // console.log(`Addition of all add numbers ${sum}`);
@@ -161,7 +163,7 @@
 //Print only first 3 odd numbers from 1 to 20 Use loop. Stop with break after 3 odd prints.
 // let counter=0;
 // for(let i=1;i<=20;i++){
-//     if(counter==3) break; 
+//     if(counter==3) break;
 //     if(i%2!==0){
 //         console.log(i);
 //         counter++;
