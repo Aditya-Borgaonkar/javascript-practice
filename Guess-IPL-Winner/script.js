@@ -1,5 +1,65 @@
-var arr=["Aditya","Amit","Sagar","Kedar","Vinit","Shantanu","Sachin","Swapnil"];
+let arr=[
+    {
+        Team:'CSK',
+        Primary:'Yellow',
+        secondary:'blue',
+        trophy:'🏆🏆🏆🏆🏆'
+    },
+    {
+        Team:'MUI',
+        Primary:'Blue',
+        secondary:'Goldan',
+        trophy:'🏆🏆🏆🏆🏆'
+    },
+    {
+        Team:'RCB',
+        Primary:'REd',
+        secondary:'Black',
+        trophy:'🏆'
+    },
+    {
+        Team:'SRH',
+        Primary:'Orenge',
+        secondary:'Black',
+        trophy:'🏆🏆'
+    },
+    {
+        Team:'KKS',
+        Primary:'Purpal',
+        secondary:'Goldan',
+        trophy:'🏆🏆🏆'
+    },
+    {
+        Team:'PBKS',
+        Primary:'red',
+        secondary:'White',
+        trophy:'0'
+    },
+    {
+        Team:'DD',
+        Primary:'Blue',
+        secondary:'White',
+        trophy:'0'
+    },
+    {
+        Team:'GT',
+        Primary:'Dark-Blue',
+        secondary:'Yellow',
+        trophy:'🏆'
+    },
+    {
+        Team:'RR',
+        Primary:'Pink',
+        secondary:'blue',
+        trophy:'🏆'
+    },
+    {
+        Team:'LSG',
+        Primary:'Green',
+        secondary:'Black',
+        trophy:'0'
+    }
+]
 
-var name=Math.floor( Math.random()*arr.length);
 
-console.log(arr[name]);
+console.log(arr);

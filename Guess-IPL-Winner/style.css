@@ -6,5 +6,29 @@
 html , body{
     height: 100%;
     width: 100%;
-    /* background-color: #000 ; */
+    background-color: #000 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px 30px;
+    background-color: orangered;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
 }
