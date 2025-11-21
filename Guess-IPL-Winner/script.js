@@ -81,7 +81,6 @@ btn.addEventListener('click', function () {
     h1.innerHTML = arr[win].Team;
     h2.innerHTML = arr[win].capton;
     main.style.backgroundImage = `url(${arr[win].bg})`;
-
 })
 
 
