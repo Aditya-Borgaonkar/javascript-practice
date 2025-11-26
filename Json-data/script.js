@@ -45,5 +45,4 @@ users.forEach(function(elem){
         </div>`
 })
 main.innerHTML=sum;
-console.log(sum);
 
