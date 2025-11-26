@@ -9,6 +9,4 @@ allelem.forEach(function(elem){
         elem.innerHTML='Add Friend'
     }    
     })
-})
-
-
+})  
