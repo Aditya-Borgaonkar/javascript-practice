@@ -9,6 +9,7 @@ html , body{
     background-color: #000;
     cursor: none;
     box-sizing: border-box;
+    cursor: none;
 
 }
 body::-webkit-scrollbar{
@@ -24,7 +25,6 @@ body::-webkit-scrollbar{
 .d1{
     height: 100%;
     width: 100%;
-    /* background-color: sandybrown; */
 }
 
 .dd{
